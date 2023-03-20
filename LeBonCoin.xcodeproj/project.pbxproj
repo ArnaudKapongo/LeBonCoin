@@ -7,6 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5091EDDB29C8F4C300FD1F23 /* MainNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5091EDDA29C8F4C300FD1F23 /* MainNavigation.swift */; };
+		5091EDE229C8F57A00FD1F23 /* HomePageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5091EDE129C8F57A00FD1F23 /* HomePageTableViewController.swift */; };
+		5091EDE329C8F57A00FD1F23 /* HomePageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5091EDE129C8F57A00FD1F23 /* HomePageTableViewController.swift */; };
+		5091EDE429C8F57A00FD1F23 /* HomePageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5091EDE129C8F57A00FD1F23 /* HomePageTableViewController.swift */; };
+		5091EDE629C8F96A00FD1F23 /* HomePageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5091EDE529C8F96A00FD1F23 /* HomePageTableViewCell.swift */; };
+		5091EDE729C8F96A00FD1F23 /* HomePageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5091EDE529C8F96A00FD1F23 /* HomePageTableViewCell.swift */; };
+		5091EDE829C8F96A00FD1F23 /* HomePageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5091EDE529C8F96A00FD1F23 /* HomePageTableViewCell.swift */; };
+		5091EDEA29C8FA0700FD1F23 /* ConstraintManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5091EDE929C8FA0700FD1F23 /* ConstraintManager.swift */; };
+		5091EDEB29C8FA0700FD1F23 /* ConstraintManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5091EDE929C8FA0700FD1F23 /* ConstraintManager.swift */; };
+		5091EDEC29C8FA0700FD1F23 /* ConstraintManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5091EDE929C8FA0700FD1F23 /* ConstraintManager.swift */; };
+		5091EDEF29C8FA5800FD1F23 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5091EDEE29C8FA5800FD1F23 /* UIViewExtension.swift */; };
+		5091EDF029C8FA5800FD1F23 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5091EDEE29C8FA5800FD1F23 /* UIViewExtension.swift */; };
+		5091EDF129C8FA5800FD1F23 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5091EDEE29C8FA5800FD1F23 /* UIViewExtension.swift */; };
+		5091EDF329C8FD8A00FD1F23 /* HomePageVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5091EDF229C8FD8A00FD1F23 /* HomePageVM.swift */; };
+		5091EDF429C8FD8A00FD1F23 /* HomePageVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5091EDF229C8FD8A00FD1F23 /* HomePageVM.swift */; };
+		5091EDF529C8FD8A00FD1F23 /* HomePageVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5091EDF229C8FD8A00FD1F23 /* HomePageVM.swift */; };
+		5091EDF729C8FDD400FD1F23 /* HomePageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5091EDF629C8FDD400FD1F23 /* HomePageService.swift */; };
+		5091EDF829C8FDD400FD1F23 /* HomePageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5091EDF629C8FDD400FD1F23 /* HomePageService.swift */; };
+		5091EDF929C8FDD400FD1F23 /* HomePageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5091EDF629C8FDD400FD1F23 /* HomePageService.swift */; };
+		5091EDFC29C8FE6000FD1F23 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5091EDFB29C8FE6000FD1F23 /* ApiManager.swift */; };
+		5091EDFD29C8FE6000FD1F23 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5091EDFB29C8FE6000FD1F23 /* ApiManager.swift */; };
+		5091EDFE29C8FE6000FD1F23 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5091EDFB29C8FE6000FD1F23 /* ApiManager.swift */; };
+		5091EE0029C903B800FD1F23 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5091EDFF29C903B800FD1F23 /* Item.swift */; };
+		5091EE0129C903B800FD1F23 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5091EDFF29C903B800FD1F23 /* Item.swift */; };
+		5091EE0229C903B800FD1F23 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5091EDFF29C903B800FD1F23 /* Item.swift */; };
+		5091EE0429C9055600FD1F23 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5091EE0329C9055600FD1F23 /* Constant.swift */; };
+		5091EE0529C9055600FD1F23 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5091EE0329C9055600FD1F23 /* Constant.swift */; };
+		5091EE0629C9055600FD1F23 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5091EE0329C9055600FD1F23 /* Constant.swift */; };
 		50F1217129C805F2000EE47A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F1217029C805F2000EE47A /* AppDelegate.swift */; };
 		50F1217329C805F2000EE47A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F1217229C805F2000EE47A /* SceneDelegate.swift */; };
 		50F1217A29C805F3000EE47A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50F1217929C805F3000EE47A /* Assets.xcassets */; };
@@ -34,6 +62,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5091EDDA29C8F4C300FD1F23 /* MainNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigation.swift; sourceTree = "<group>"; };
+		5091EDE129C8F57A00FD1F23 /* HomePageTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageTableViewController.swift; sourceTree = "<group>"; };
+		5091EDE529C8F96A00FD1F23 /* HomePageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageTableViewCell.swift; sourceTree = "<group>"; };
+		5091EDE929C8FA0700FD1F23 /* ConstraintManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintManager.swift; sourceTree = "<group>"; };
+		5091EDEE29C8FA5800FD1F23 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		5091EDF229C8FD8A00FD1F23 /* HomePageVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageVM.swift; sourceTree = "<group>"; };
+		5091EDF629C8FDD400FD1F23 /* HomePageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageService.swift; sourceTree = "<group>"; };
+		5091EDFB29C8FE6000FD1F23 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		5091EDFF29C903B800FD1F23 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		5091EE0329C9055600FD1F23 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		50F1216D29C805F2000EE47A /* LeBonCoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeBonCoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50F1217029C805F2000EE47A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50F1217229C805F2000EE47A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +110,74 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5091EDD929C8F4AB00FD1F23 /* MainNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				5091EDDA29C8F4C300FD1F23 /* MainNavigation.swift */,
+			);
+			path = MainNavigation;
+			sourceTree = "<group>";
+		};
+		5091EDDC29C8F51900FD1F23 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				5091EDE029C8F55500FD1F23 /* Service */,
+				5091EDDF29C8F54A00FD1F23 /* Model */,
+				5091EDDE29C8F53D00FD1F23 /* ViewModel */,
+				5091EDDD29C8F53100FD1F23 /* View */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		5091EDDD29C8F53100FD1F23 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5091EDE129C8F57A00FD1F23 /* HomePageTableViewController.swift */,
+				5091EDE529C8F96A00FD1F23 /* HomePageTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5091EDDE29C8F53D00FD1F23 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5091EDF229C8FD8A00FD1F23 /* HomePageVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5091EDDF29C8F54A00FD1F23 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5091EDFF29C903B800FD1F23 /* Item.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5091EDE029C8F55500FD1F23 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				5091EDF629C8FDD400FD1F23 /* HomePageService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		5091EDED29C8FA4200FD1F23 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5091EDEE29C8FA5800FD1F23 /* UIViewExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		5091EDFA29C8FE2300FD1F23 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				5091EDFB29C8FE6000FD1F23 /* ApiManager.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
 		50F1216429C805F2000EE47A = {
 			isa = PBXGroup;
 			children = (
@@ -95,7 +201,9 @@
 		50F1216F29C805F2000EE47A /* LeBonCoin */ = {
 			isa = PBXGroup;
 			children = (
-				50F121A629C812A5000EE47A /* New Group */,
+				5091EDFA29C8FE2300FD1F23 /* Api */,
+				5091EDED29C8FA4200FD1F23 /* Extension */,
+				50F121A629C812A5000EE47A /* Utils */,
 				50F121A529C81279000EE47A /* Configure */,
 				50F121A029C80C34000EE47A /* Screens */,
 				50F121A429C80D34000EE47A /* Synchro */,
@@ -150,6 +258,8 @@
 		50F121A329C80D0A000EE47A /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				5091EDDC29C8F51900FD1F23 /* HomePage */,
+				5091EDD929C8F4AB00FD1F23 /* MainNavigation */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -170,11 +280,13 @@
 			path = Configure;
 			sourceTree = "<group>";
 		};
-		50F121A629C812A5000EE47A /* New Group */ = {
+		50F121A629C812A5000EE47A /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				5091EDE929C8FA0700FD1F23 /* ConstraintManager.swift */,
+				5091EE0329C9055600FD1F23 /* Constant.swift */,
 			);
-			path = "New Group";
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -307,8 +419,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5091EDE629C8F96A00FD1F23 /* HomePageTableViewCell.swift in Sources */,
+				5091EDDB29C8F4C300FD1F23 /* MainNavigation.swift in Sources */,
+				5091EDFC29C8FE6000FD1F23 /* ApiManager.swift in Sources */,
+				5091EDF729C8FDD400FD1F23 /* HomePageService.swift in Sources */,
+				5091EDEA29C8FA0700FD1F23 /* ConstraintManager.swift in Sources */,
 				50F1217129C805F2000EE47A /* AppDelegate.swift in Sources */,
+				5091EE0029C903B800FD1F23 /* Item.swift in Sources */,
+				5091EDF329C8FD8A00FD1F23 /* HomePageVM.swift in Sources */,
+				5091EDEF29C8FA5800FD1F23 /* UIViewExtension.swift in Sources */,
 				50F1217329C805F2000EE47A /* SceneDelegate.swift in Sources */,
+				5091EDE229C8F57A00FD1F23 /* HomePageTableViewController.swift in Sources */,
+				5091EE0429C9055600FD1F23 /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,7 +438,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5091EDFD29C8FE6000FD1F23 /* ApiManager.swift in Sources */,
+				5091EE0129C903B800FD1F23 /* Item.swift in Sources */,
+				5091EDF029C8FA5800FD1F23 /* UIViewExtension.swift in Sources */,
 				50F1218829C805F3000EE47A /* LeBonCoinTests.swift in Sources */,
+				5091EDF429C8FD8A00FD1F23 /* HomePageVM.swift in Sources */,
+				5091EDF829C8FDD400FD1F23 /* HomePageService.swift in Sources */,
+				5091EDE729C8F96A00FD1F23 /* HomePageTableViewCell.swift in Sources */,
+				5091EE0529C9055600FD1F23 /* Constant.swift in Sources */,
+				5091EDEB29C8FA0700FD1F23 /* ConstraintManager.swift in Sources */,
+				5091EDE329C8F57A00FD1F23 /* HomePageTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,8 +455,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5091EE0229C903B800FD1F23 /* Item.swift in Sources */,
+				5091EDF129C8FA5800FD1F23 /* UIViewExtension.swift in Sources */,
+				5091EDFE29C8FE6000FD1F23 /* ApiManager.swift in Sources */,
 				50F1219429C805F3000EE47A /* LeBonCoinUITestsLaunchTests.swift in Sources */,
+				5091EDF529C8FD8A00FD1F23 /* HomePageVM.swift in Sources */,
 				50F1219229C805F3000EE47A /* LeBonCoinUITests.swift in Sources */,
+				5091EDEC29C8FA0700FD1F23 /* ConstraintManager.swift in Sources */,
+				5091EDE429C8F57A00FD1F23 /* HomePageTableViewController.swift in Sources */,
+				5091EE0629C9055600FD1F23 /* Constant.swift in Sources */,
+				5091EDE829C8F96A00FD1F23 /* HomePageTableViewCell.swift in Sources */,
+				5091EDF929C8FDD400FD1F23 /* HomePageService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,7 +621,6 @@
 				INFOPLIST_FILE = LeBonCoin/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -508,7 +647,6 @@
 				INFOPLIST_FILE = LeBonCoin/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
