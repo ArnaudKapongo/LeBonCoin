@@ -16,7 +16,6 @@ class HomePageTableViewController: UITableViewController {
     
     var items: [Item] = []
     
-    
     init() {
         let service = HomePageService(apiManager: ApiManager())
         self.viewModel = HomePageVM(homePageService: service)
@@ -85,9 +84,7 @@ class HomePageTableViewController: UITableViewController {
         
         // Configure the cell...
         let item = items[indexPath.row]
-        
         cell.categorylabel.text = item.getTitle()
-
         return cell
     }
     

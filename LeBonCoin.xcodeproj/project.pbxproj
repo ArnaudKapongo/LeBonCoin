@@ -35,6 +35,12 @@
 		5091EE0429C9055600FD1F23 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5091EE0329C9055600FD1F23 /* Constant.swift */; };
 		5091EE0529C9055600FD1F23 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5091EE0329C9055600FD1F23 /* Constant.swift */; };
 		5091EE0629C9055600FD1F23 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5091EE0329C9055600FD1F23 /* Constant.swift */; };
+		5091EE0829C910AB00FD1F23 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5091EE0729C910AB00FD1F23 /* Filter.swift */; };
+		5091EE0929C910AB00FD1F23 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5091EE0729C910AB00FD1F23 /* Filter.swift */; };
+		5091EE0A29C910AB00FD1F23 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5091EE0729C910AB00FD1F23 /* Filter.swift */; };
+		5092EBD029C969C200550CC9 /* DetailPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5092EBCF29C969C200550CC9 /* DetailPageController.swift */; };
+		5092EBD129C969C200550CC9 /* DetailPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5092EBCF29C969C200550CC9 /* DetailPageController.swift */; };
+		5092EBD229C969C200550CC9 /* DetailPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5092EBCF29C969C200550CC9 /* DetailPageController.swift */; };
 		50F1217129C805F2000EE47A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F1217029C805F2000EE47A /* AppDelegate.swift */; };
 		50F1217329C805F2000EE47A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F1217229C805F2000EE47A /* SceneDelegate.swift */; };
 		50F1217A29C805F3000EE47A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50F1217929C805F3000EE47A /* Assets.xcassets */; };
@@ -72,6 +78,8 @@
 		5091EDFB29C8FE6000FD1F23 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
 		5091EDFF29C903B800FD1F23 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		5091EE0329C9055600FD1F23 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		5091EE0729C910AB00FD1F23 /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
+		5092EBCF29C969C200550CC9 /* DetailPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPageController.swift; sourceTree = "<group>"; };
 		50F1216D29C805F2000EE47A /* LeBonCoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeBonCoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50F1217029C805F2000EE47A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50F1217229C805F2000EE47A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -178,6 +186,30 @@
 			path = Api;
 			sourceTree = "<group>";
 		};
+		5092EBCA29C9669600550CC9 /* DetailPage */ = {
+			isa = PBXGroup;
+			children = (
+				5092EBCD29C9677E00550CC9 /* ViewModel */,
+				5092EBCE29C967CA00550CC9 /* View */,
+			);
+			path = DetailPage;
+			sourceTree = "<group>";
+		};
+		5092EBCD29C9677E00550CC9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5092EBCE29C967CA00550CC9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5092EBCF29C969C200550CC9 /* DetailPageController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		50F1216429C805F2000EE47A = {
 			isa = PBXGroup;
 			children = (
@@ -234,7 +266,9 @@
 		50F121A029C80C34000EE47A /* Screens */ = {
 			isa = PBXGroup;
 			children = (
-				50F121A329C80D0A000EE47A /* UI */,
+				5091EDDC29C8F51900FD1F23 /* HomePage */,
+				5092EBCA29C9669600550CC9 /* DetailPage */,
+				5091EDD929C8F4AB00FD1F23 /* MainNavigation */,
 				50F121A229C80CD2000EE47A /* Filter */,
 				50F121A129C80C82000EE47A /* ViewModels */,
 			);
@@ -251,17 +285,9 @@
 		50F121A229C80CD2000EE47A /* Filter */ = {
 			isa = PBXGroup;
 			children = (
+				5091EE0729C910AB00FD1F23 /* Filter.swift */,
 			);
 			path = Filter;
-			sourceTree = "<group>";
-		};
-		50F121A329C80D0A000EE47A /* UI */ = {
-			isa = PBXGroup;
-			children = (
-				5091EDDC29C8F51900FD1F23 /* HomePage */,
-				5091EDD929C8F4AB00FD1F23 /* MainNavigation */,
-			);
-			path = UI;
 			sourceTree = "<group>";
 		};
 		50F121A429C80D34000EE47A /* Synchro */ = {
@@ -429,6 +455,8 @@
 				5091EDF329C8FD8A00FD1F23 /* HomePageVM.swift in Sources */,
 				5091EDEF29C8FA5800FD1F23 /* UIViewExtension.swift in Sources */,
 				50F1217329C805F2000EE47A /* SceneDelegate.swift in Sources */,
+				5091EE0829C910AB00FD1F23 /* Filter.swift in Sources */,
+				5092EBD029C969C200550CC9 /* DetailPageController.swift in Sources */,
 				5091EDE229C8F57A00FD1F23 /* HomePageTableViewController.swift in Sources */,
 				5091EE0429C9055600FD1F23 /* Constant.swift in Sources */,
 			);
@@ -440,8 +468,10 @@
 			files = (
 				5091EDFD29C8FE6000FD1F23 /* ApiManager.swift in Sources */,
 				5091EE0129C903B800FD1F23 /* Item.swift in Sources */,
+				5091EE0929C910AB00FD1F23 /* Filter.swift in Sources */,
 				5091EDF029C8FA5800FD1F23 /* UIViewExtension.swift in Sources */,
 				50F1218829C805F3000EE47A /* LeBonCoinTests.swift in Sources */,
+				5092EBD129C969C200550CC9 /* DetailPageController.swift in Sources */,
 				5091EDF429C8FD8A00FD1F23 /* HomePageVM.swift in Sources */,
 				5091EDF829C8FDD400FD1F23 /* HomePageService.swift in Sources */,
 				5091EDE729C8F96A00FD1F23 /* HomePageTableViewCell.swift in Sources */,
@@ -456,6 +486,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5091EE0229C903B800FD1F23 /* Item.swift in Sources */,
+				5091EE0A29C910AB00FD1F23 /* Filter.swift in Sources */,
+				5092EBD229C969C200550CC9 /* DetailPageController.swift in Sources */,
 				5091EDF129C8FA5800FD1F23 /* UIViewExtension.swift in Sources */,
 				5091EDFE29C8FE6000FD1F23 /* ApiManager.swift in Sources */,
 				50F1219429C805F3000EE47A /* LeBonCoinUITestsLaunchTests.swift in Sources */,
