@@ -53,7 +53,6 @@ class DetailsViewController: UIViewController {
         let imgView = UIImageView()
         imgView.contentMode = .scaleAspectFill
         imgView.clipsToBounds = true
-        imgView.layer.cornerRadius = cornerSize
         return imgView
     }()
 
